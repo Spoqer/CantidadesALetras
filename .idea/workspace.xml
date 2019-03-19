@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26fe6770-71c0-44d7-81a8-04e0914dc005" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/rogel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/auebo/utils/cantidadestoletras/CantidadesToLetras.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/auebo/utils/cantidadestoletras/Tester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/auebo/utils/cantidadestoletras/CantidadesToLetras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/auebo/utils/cantidadestoletras/CantidadesToLetras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/auebo/utils/cantidadestoletras/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/auebo/utils/cantidadestoletras/Tester.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,24 +14,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/auebo/utils/cantidadestoletras/CantidadesToLetras.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="70" column="36" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
+            <state relative-caret-position="748">
+              <caret line="157" column="47" selection-start-line="157" selection-start-column="47" selection-end-line="157" selection-end-column="47" />
               <folding>
+                <element signature="class#Decenas#0;class#CantidadesToLetras#0" />
+                <element signature="docComment;method#convertirUnidades#0;class#Decenas#0;class#CantidadesToLetras#0" />
+                <element signature="method#convertirUnidades#0;class#Decenas#0;class#CantidadesToLetras#0" />
+                <element signature="method#toString#0;class#Decenas#0;class#CantidadesToLetras#0" />
+                <element signature="class#Unidades#0;class#CantidadesToLetras#0" />
                 <element signature="docComment;method#convertirUnidades#0;class#Unidades#0;class#CantidadesToLetras#0" />
-                <element signature="method#convertirUnidades#0;class#Unidades#0;class#CantidadesToLetras#0" />
+                <element signature="method#convertir#0;class#Unidades#0;class#CantidadesToLetras#0" />
+                <element signature="method#toString#0;class#Unidades#0;class#CantidadesToLetras#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/auebo/utils/cantidadestoletras/Tester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+            <state relative-caret-position="68">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -105,7 +107,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553018835580" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553021310957" />
     <property name="last_opened_file_path" value="S:/Spoq/Proyectos/Dev/Java/spanish.dic" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -154,12 +156,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553009382970</updated>
-      <workItem from="1553009386511" duration="9175000" />
+      <workItem from="1553009386511" duration="11531000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9175000" />
+    <option name="totallyTimeSpent" value="11531000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2354" height="1208" extended-state="6" />
@@ -201,21 +203,27 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/auebo/utils/cantidadestoletras/CantidadesToLetras.java">
+    <entry file="file://$PROJECT_DIR$/src/com/auebo/utils/cantidadestoletras/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="70" column="36" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
-          <folding>
-            <element signature="docComment;method#convertirUnidades#0;class#Unidades#0;class#CantidadesToLetras#0" />
-            <element signature="method#convertirUnidades#0;class#Unidades#0;class#CantidadesToLetras#0" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/auebo/utils/cantidadestoletras/Tester.java">
+    <entry file="file://$PROJECT_DIR$/src/com/auebo/utils/cantidadestoletras/CantidadesToLetras.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        <state relative-caret-position="748">
+          <caret line="157" column="47" selection-start-line="157" selection-start-column="47" selection-end-line="157" selection-end-column="47" />
+          <folding>
+            <element signature="class#Decenas#0;class#CantidadesToLetras#0" />
+            <element signature="docComment;method#convertirUnidades#0;class#Decenas#0;class#CantidadesToLetras#0" />
+            <element signature="method#convertirUnidades#0;class#Decenas#0;class#CantidadesToLetras#0" />
+            <element signature="method#toString#0;class#Decenas#0;class#CantidadesToLetras#0" />
+            <element signature="class#Unidades#0;class#CantidadesToLetras#0" />
+            <element signature="docComment;method#convertirUnidades#0;class#Unidades#0;class#CantidadesToLetras#0" />
+            <element signature="method#convertir#0;class#Unidades#0;class#CantidadesToLetras#0" />
+            <element signature="method#toString#0;class#Unidades#0;class#CantidadesToLetras#0" />
+          </folding>
         </state>
       </provider>
     </entry>

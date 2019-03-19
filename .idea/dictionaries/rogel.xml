@@ -2,6 +2,7 @@
   <dictionary name="rogel">
     <words>
       <w>convierte</w>
+      <w>dieci</w>
       <w>digito</w>
       <w>encontro</w>
       <w>entero</w>
@@ -9,6 +10,7 @@
       <w>importe</w>
       <w>letras</w>
       <w>número</w>
+      <w>veinti</w>
     </words>
   </dictionary>
 </component>
