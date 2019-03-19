@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26fe6770-71c0-44d7-81a8-04e0914dc005" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/auebo/utils/cantidadestoletras/CantidadesToLetras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/auebo/utils/cantidadestoletras/CantidadesToLetras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/rogel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/rogel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/auebo/utils/cantidadestoletras/CantidadesToLetras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/auebo/utils/cantidadesaletras/CantidadesALetras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/auebo/utils/cantidadestoletras/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/auebo/utils/cantidadesaletras/Tester.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,30 +15,65 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/auebo/utils/cantidadestoletras/CantidadesToLetras.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/auebo/utils/cantidadesaletras/CantidadesALetras.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="177" column="18" selection-start-line="177" selection-start-column="18" selection-end-line="177" selection-end-column="18" />
+            <state relative-caret-position="615">
+              <caret line="158" selection-start-line="158" selection-end-line="158" />
               <folding>
-                <element signature="class#Decenas#0;class#CantidadesToLetras#0" />
-                <element signature="docComment;method#convertirUnidades#0;class#Decenas#0;class#CantidadesToLetras#0" />
-                <element signature="method#convertirUnidades#0;class#Decenas#0;class#CantidadesToLetras#0" />
-                <element signature="method#toString#0;class#Decenas#0;class#CantidadesToLetras#0" />
-                <element signature="docComment;method#convertirUnidades#0;class#Unidades#0;class#CantidadesToLetras#0" />
-                <element signature="method#convertir#0;class#Unidades#0;class#CantidadesToLetras#0" />
-                <element signature="method#toString#0;class#Unidades#0;class#CantidadesToLetras#0" />
+                <element signature="class#Unidades#0;class#CantidadesALetras#0" />
+                <element signature="docComment;method#convertir#0;class#Unidades#0;class#CantidadesALetras#0" />
+                <element signature="method#convertir#0;class#Unidades#0;class#CantidadesALetras#0" />
+                <element signature="e#775#913#1" />
+                <element signature="e#1014#1139#1" />
+                <element signature="e#1060#1125#1" />
+                <element signature="method#toString#0;class#Unidades#0;class#CantidadesALetras#0" />
+                <element signature="e#1418#1460#1" />
+                <element signature="class#Decenas#0;class#CantidadesALetras#0" />
+                <element signature="docComment;method#convertir#0;class#Decenas#0;class#CantidadesALetras#0" />
+                <element signature="method#convertir#0;class#Decenas#0;class#CantidadesALetras#0" />
+                <element signature="e#2209#2346#1" />
+                <element signature="e#2445#2570#1" />
+                <element signature="e#2491#2556#1" />
+                <element signature="method#toString#0;class#Decenas#0;class#CantidadesALetras#0" />
+                <element signature="e#2848#2890#1" />
+                <element signature="docComment;method#convertirImporteALetras#0;class#CantidadesALetras#0" />
+                <element signature="e#4107#4844#1" />
+                <element signature="e#4346#4393#1" />
+                <element signature="e#4480#4834#1" />
+                <element signature="e#4942#5045#1" />
+                <element signature="e#5508#5550#1" />
+                <element signature="method#convertirCientos#0;class#CantidadesALetras#0" />
+                <element signature="e#5434#5492#1" />
+                <element signature="e#5523#5585#1" />
+                <element signature="e#5616#5672#1" />
+                <element signature="e#5703#5759#1" />
+                <element signature="e#5765#5848#1" />
+                <element signature="e#5834#5965#1" />
+                <element signature="method#ordenDeMagnitudALetras#0;class#CantidadesALetras#0" />
+                <element signature="e#5386#5506#1" />
+                <element signature="e#5594#5651#1" />
+                <element signature="e#5684#5924#0" />
+                <element signature="method#convertirValorEntreCeroYCien#0;class#CantidadesALetras#0" />
+                <element signature="e#6259#6317#1" />
+                <element signature="e#6357#6555#1" />
+                <element signature="e#6416#6457#1" />
+                <element signature="e#6561#7254#1" />
+                <element signature="e#6601#7016#1" />
+                <element signature="e#6637#7002#0" />
+                <element signature="e#7040#7138#1" />
+                <element signature="e#7144#7244#1" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/auebo/utils/cantidadestoletras/Tester.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/auebo/utils/cantidadesaletras/Tester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="85">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -50,8 +88,13 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>importeEnLetras.append(</find>
+    </findStrings>
     <replaceStrings>
       <replace>return</replace>
+      <replace>return</replace>
+      <replace>cientoEnLetras =</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -67,6 +110,9 @@
         <option value="$PROJECT_DIR$/src/com/auebo/utils/cantidadestoletras/NumerosToLetras.java" />
         <option value="$PROJECT_DIR$/src/com/auebo/utils/cantidadestoletras/Tester.java" />
         <option value="$PROJECT_DIR$/src/com/auebo/utils/cantidadestoletras/CantidadesToLetras.java" />
+        <option value="$PROJECT_DIR$/src/com/auebo/utils/cantidadesaletras/CantidadesToLetras.java" />
+        <option value="$PROJECT_DIR$/src/com/auebo/utils/cantidadesaletras/CantidadesALetras.java" />
+        <option value="$PROJECT_DIR$/src/com/auebo/utils/cantidadesaletras/Tester.java" />
       </list>
     </option>
   </component>
@@ -97,7 +143,7 @@
               <item name="NumerosToLetras" type="b2602c69:ProjectViewProjectNode" />
               <item name="NumerosToLetras" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cantidadestoletras" type="462c0819:PsiDirectoryNode" />
+              <item name="cantidadesaletras" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -110,7 +156,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553022002625" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553038211783" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="S:/Spoq/Proyectos/Dev/Java/spanish.dic" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -131,11 +177,11 @@
   </component>
   <component name="RunManager">
     <configuration name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.auebo.utils.cantidadestoletras.Tester" />
+      <option name="MAIN_CLASS_NAME" value="com.auebo.utils.cantidadesaletras.Tester" />
       <module name="NumerosToLetras" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.auebo.utils.cantidadestoletras.*" />
+          <option name="PATTERN" value="com.auebo.utils.cantidadesaletras.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,31 +206,58 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553009382970</updated>
-      <workItem from="1553009386511" duration="12342000" />
+      <workItem from="1553009386511" duration="13825000" />
+      <workItem from="1553029426691" duration="8092000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12342000" />
+    <option name="totallyTimeSpent" value="21917000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2354" height="1208" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25174215" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32922202" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943075" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32922202" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2521777" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32922202" />
@@ -192,41 +265,94 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/auebo/utils/cantidadesaletras/CantidadesALetras.java</url>
+          <line>158</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/auebo/utils/cantidadestoletras/Tester.java">
+    <entry file="file://$PROJECT_DIR$/src/com/auebo/utils/cantidadesaletras/CantidadesALetras.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="615">
+          <caret line="158" selection-start-line="158" selection-end-line="158" />
+          <folding>
+            <element signature="class#Unidades#0;class#CantidadesALetras#0" />
+            <element signature="docComment;method#convertir#0;class#Unidades#0;class#CantidadesALetras#0" />
+            <element signature="method#convertir#0;class#Unidades#0;class#CantidadesALetras#0" />
+            <element signature="e#775#913#1" />
+            <element signature="e#1014#1139#1" />
+            <element signature="e#1060#1125#1" />
+            <element signature="method#toString#0;class#Unidades#0;class#CantidadesALetras#0" />
+            <element signature="e#1418#1460#1" />
+            <element signature="class#Decenas#0;class#CantidadesALetras#0" />
+            <element signature="docComment;method#convertir#0;class#Decenas#0;class#CantidadesALetras#0" />
+            <element signature="method#convertir#0;class#Decenas#0;class#CantidadesALetras#0" />
+            <element signature="e#2209#2346#1" />
+            <element signature="e#2445#2570#1" />
+            <element signature="e#2491#2556#1" />
+            <element signature="method#toString#0;class#Decenas#0;class#CantidadesALetras#0" />
+            <element signature="e#2848#2890#1" />
+            <element signature="docComment;method#convertirImporteALetras#0;class#CantidadesALetras#0" />
+            <element signature="e#4107#4844#1" />
+            <element signature="e#4346#4393#1" />
+            <element signature="e#4480#4834#1" />
+            <element signature="e#4942#5045#1" />
+            <element signature="e#5508#5550#1" />
+            <element signature="method#convertirCientos#0;class#CantidadesALetras#0" />
+            <element signature="e#5434#5492#1" />
+            <element signature="e#5523#5585#1" />
+            <element signature="e#5616#5672#1" />
+            <element signature="e#5703#5759#1" />
+            <element signature="e#5765#5848#1" />
+            <element signature="e#5834#5965#1" />
+            <element signature="method#ordenDeMagnitudALetras#0;class#CantidadesALetras#0" />
+            <element signature="e#5386#5506#1" />
+            <element signature="e#5594#5651#1" />
+            <element signature="e#5684#5924#0" />
+            <element signature="method#convertirValorEntreCeroYCien#0;class#CantidadesALetras#0" />
+            <element signature="e#6259#6317#1" />
+            <element signature="e#6357#6555#1" />
+            <element signature="e#6416#6457#1" />
+            <element signature="e#6561#7254#1" />
+            <element signature="e#6601#7016#1" />
+            <element signature="e#6637#7002#0" />
+            <element signature="e#7040#7138#1" />
+            <element signature="e#7144#7244#1" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/auebo/utils/cantidadestoletras/CantidadesToLetras.java">
+    <entry file="file://$PROJECT_DIR$/src/com/auebo/utils/cantidadesaletras/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="177" column="18" selection-start-line="177" selection-start-column="18" selection-end-line="177" selection-end-column="18" />
-          <folding>
-            <element signature="class#Decenas#0;class#CantidadesToLetras#0" />
-            <element signature="docComment;method#convertirUnidades#0;class#Decenas#0;class#CantidadesToLetras#0" />
-            <element signature="method#convertirUnidades#0;class#Decenas#0;class#CantidadesToLetras#0" />
-            <element signature="method#toString#0;class#Decenas#0;class#CantidadesToLetras#0" />
-            <element signature="docComment;method#convertirUnidades#0;class#Unidades#0;class#CantidadesToLetras#0" />
-            <element signature="method#convertir#0;class#Unidades#0;class#CantidadesToLetras#0" />
-            <element signature="method#toString#0;class#Unidades#0;class#CantidadesToLetras#0" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
         </state>
       </provider>
     </entry>
