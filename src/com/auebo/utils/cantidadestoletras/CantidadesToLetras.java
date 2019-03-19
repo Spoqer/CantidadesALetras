@@ -123,44 +123,7 @@ public class CantidadesToLetras {
             digitoSiguiente = numero / 100;
             ordenSiguiente = 2;
 
-            int unidades = digitoEvaluado % 10;
-            int decenas = digitoEvaluado / 10;
-
-            //TODO: hacer más elegante: módulo y división entre 10, si está entre 11 y 15 o 21 y 29, caso especial, si no, construir normalmente
-            if (unidades == 0) {
-                importeEnLetras.append(Decenas.convertir(decenas));
-            } else if (decenas == 0 || decenas >= 3) {
-                String y = "";
-                if (decenas != 0) {
-                    y = " y ";
-                }
-                importeEnLetras.append(Decenas.convertir(decenas)).append(y).append(Unidades.convertir(unidades)).append(" ");
-            } else {
-                if (digitoEvaluado <= 15) {
-                    switch (unidades) {
-                        case 1:
-                            importeEnLetras.append("Once ");
-                            break;
-                        case 2:
-                            importeEnLetras.append("Doce ");
-                            break;
-                        case 3:
-                            importeEnLetras.append("Trece ");
-                            break;
-                        case 4:
-                            importeEnLetras.append("Catorce ");
-                            break;
-                        case 5:
-                            importeEnLetras.append("Quince ");
-                            break;
-                    }
-                } else if (decenas == 1) {
-                    importeEnLetras.append("Dieci").append(Unidades.convertir(unidades).toLowerCase()).append(" ");
-                } else if (decenas == 2) {
-                    importeEnLetras.append("Veinti").append(Unidades.convertir(unidades).toLowerCase()).append(" ");
-
-                }
-            }
+            importeEnLetras.append(convertirValorEntreCeroYCien(digitoEvaluado));
 
         } else {                                        //Cuando el orden de magnitud NO ES múltiplo de 3
             digitoEvaluado = numero % 10;
@@ -177,5 +140,41 @@ public class CantidadesToLetras {
             //Yo <3 recursividad
             return convertirImporte(digitoSiguiente,ordenDeMagnitud + ordenSiguiente) + importeEnLetras;
         }
+    }
+
+    private static String convertirValorEntreCeroYCien(int digitoEvaluado) {
+        int unidades = digitoEvaluado % 10;
+        int decenas = digitoEvaluado / 10;
+
+        if (unidades == 0) {
+            return Decenas.convertir(decenas);
+        } else if (decenas == 0 || decenas >= 3) {
+            String y = "";
+            if (decenas != 0) {
+                y = " y ";
+            }
+            return Decenas.convertir(decenas) + y + Unidades.convertir(unidades) + " ";
+        } else {
+            if (digitoEvaluado <= 15) {
+                switch (unidades) {
+                    case 1:
+                        return "Once ";
+                    case 2:
+                        return "Doce ";
+                    case 3:
+                        return "Trece ";
+                    case 4:
+                        return "Catorce ";
+                    case 5:
+                        return "Quince ";
+                }
+            } else if (decenas == 1) {
+                return "Dieci" + Unidades.convertir(unidades).toLowerCase() + " ";
+            } else {
+                return "Veinti" + Unidades.convertir(unidades).toLowerCase() + " ";
+
+            }
+        }
+        return "";
     }
 }
