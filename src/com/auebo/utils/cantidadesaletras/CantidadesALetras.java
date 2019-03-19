@@ -124,7 +124,7 @@ public class CantidadesALetras {
             ordenSiguiente = 2;
 
             //Para no escribir "uno" en mil y evitar "Uno Mil", excepto cuando sea algo com 201 000 "doscientos un mil"
-            if (digitoEvaluado != 1 || ordenDeMagnitud == 0 || digitoSiguiente != 0) {
+            if (digitoEvaluado != 1 || ((ordenDeMagnitud/3)%2 == 0) || digitoSiguiente != 0) {
                 importeEnLetras.append(convertirValorEntreCeroYCien(digitoEvaluado));
             }
 
@@ -134,6 +134,11 @@ public class CantidadesALetras {
             }
 
             importeEnLetras.append(ordenDeMagnitudALetras(digitoEvaluado, ordenDeMagnitud));
+
+            //Para que no diga "un millones" o "un billones" sino "un millon" o "un billon"
+            if (digitoSiguiente == 0 && digitoEvaluado == 1 && (ordenDeMagnitud/3) % 2 == 0 && importeEnLetras.length() > 0) {
+                importeEnLetras.delete(importeEnLetras.length() - 3, importeEnLetras.length() - 1);
+            }
 
         } else {                                        //Cuando el orden de magnitud NO ES múltiplo de 3
             digitoEvaluado = numero % 10;
@@ -154,6 +159,7 @@ public class CantidadesALetras {
             //Terminó, retorna el resultado.
             return importeEnLetras.toString();
         } else {
+
             int ordenDeMagnitudSiguiente = ordenDeMagnitud + ordenSiguiente;
             StringBuilder resultado = new StringBuilder();
             resultado.append(convertirImporteALetras(digitoSiguiente,ordenDeMagnitudSiguiente));
@@ -213,6 +219,7 @@ public class CantidadesALetras {
             case 6:
             case 7:
                 return ordenDeMagnitudEnLetras + "Trillones ";
+
         }
 
         return ordenDeMagnitudEnLetras;
