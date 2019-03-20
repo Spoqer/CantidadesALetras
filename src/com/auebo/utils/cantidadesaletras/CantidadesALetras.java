@@ -105,10 +105,15 @@ public class CantidadesALetras {
 
     /**
      * Convierte un número entero a letras, por ejemplo 319 a "Trescientos Diecinueve" usando un algoritmo recursivo.
-     * @param numero    el número a convertir
-     * @return          el número escrito (importe con letra)
+     *
+     * @param numero el número a convertir
+     * @return el número escrito (importe con letra)
      */
-    public static String convertirImporteALetras(int numero, int ordenDeMagnitud) {
+    public static String convertirImporteALetras(int numero) {
+        return convertirImporteALetras(numero, 0);
+    }
+
+    private static String convertirImporteALetras(int numero, int ordenDeMagnitud) {
         int digitoEvaluado;
         int digitoSiguiente;
         int ordenSiguiente;
