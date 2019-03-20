@@ -128,12 +128,12 @@ public class CantidadesALetras {
                 importeEnLetras.append(convertirValorEntreCeroYCien(digitoEvaluado));
             }
 
-            if (importeEnLetras.length()>0 && digitoEvaluado == 1 && ordenDeMagnitud != 0){
+            if (importeEnLetras.length()>0 && digitoEvaluado % 10 == 1 && ordenDeMagnitud != 0){
                 //Le quita la o a Uno cuando son miles, millones, etc.
                 importeEnLetras.deleteCharAt(importeEnLetras.length() - 2);
             }
 
-            importeEnLetras.append(ordenDeMagnitudALetras(digitoEvaluado, ordenDeMagnitud));
+            importeEnLetras.append(potenciaDeMilALetras(digitoEvaluado, ordenDeMagnitud));
 
             //Para que no diga "un millones" o "un billones" sino "un millon" o "un billon"
             if (digitoSiguiente == 0 && digitoEvaluado == 1 && (ordenDeMagnitud/3) % 2 == 0 && importeEnLetras.length() > 0) {
@@ -195,7 +195,7 @@ public class CantidadesALetras {
         return importeEnLetras.toString();
     }
 
-    private static String ordenDeMagnitudALetras(int digitoEvaluado, int ordenDeMagnitud) {
+    private static String potenciaDeMilALetras(int digitoEvaluado, int ordenDeMagnitud) {
         String ordenDeMagnitudEnLetras = "";
 
         if (ordenDeMagnitud % 3 != 0) {
@@ -205,7 +205,7 @@ public class CantidadesALetras {
 
         int potenciaDeMil = ordenDeMagnitud / 3;
 
-        if (potenciaDeMil % 2 == 1) {
+        if (potenciaDeMil % 2 == 1 && digitoEvaluado != 0) {
             ordenDeMagnitudEnLetras = "Mil ";
         }
 
