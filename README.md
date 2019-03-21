@@ -7,4 +7,4 @@ CantidadesALetras.convertirImporteALetras(int i)
 ```
 siendo i el valor a convertir. 
 ## Esta es una primera versión
-Hace falta refactorizar, limpiar, etc. (además de completar la funcionalidad hasta valores mucho más grandes - posiblemente usando BigDecimal - y falta añadir la interfaz para poder usar órdenes de magnitud).
+Hace falta refactorizar, limpiar, etc. (además de completar la funcionalidad hasta valores mucho más grandes - posiblemente usando BigDecimal o BigInt - y falta añadir la interfaz para poder usar órdenes de magnitud).
