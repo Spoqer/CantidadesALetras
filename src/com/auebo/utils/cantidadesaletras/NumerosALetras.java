@@ -1,6 +1,6 @@
 package com.auebo.utils.cantidadesaletras;
 
-public class CantidadesALetras {
+public class NumerosALetras {
     private enum Unidades {
         Cero(0),
         Uno(1),
