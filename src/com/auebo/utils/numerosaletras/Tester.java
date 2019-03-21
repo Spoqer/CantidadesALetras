@@ -1,4 +1,4 @@
-package com.auebo.utils.cantidadesaletras;
+package com.auebo.utils.numerosaletras;
 
 public class Tester {
     public static void main(String[] args) {

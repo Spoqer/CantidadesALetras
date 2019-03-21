@@ -1,4 +1,4 @@
-package com.auebo.utils.cantidadesaletras;
+package com.auebo.utils.numerosaletras;
 
 public class NumerosALetras {
     private enum Unidades {
